@@ -1,0 +1,50 @@
+body {
+    background-image : url("pictures/banner.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+    color : rgb(255, 255, 255);
+}
+
+#particles-js {
+    position : fixed;
+    width : 100%;
+    height : 100%;
+    top : 0px;
+}
+
+@font-face {
+    font-family : MinecraftFont;
+    src : url('https://www.dafont.com/minecraft.font');
+}
+
+#page {
+    margin-left : 25%;
+    z-index : 9;
+}
+
+#header {
+    margin-left : 10%;
+    margin-top : 15%;
+}
+
+#footer {
+    background-image: url('pictures/footerBG.jpg');
+    align-content : center;
+    bottom : 0;
+    position : fixed;
+    height : 5%;
+    left: 45%;
+}
+
+#navigation {
+    margin-left : 4%;
+    text-align : center;
+    margin-top : 7%;
+}
+
+#info, #map, #members {
+    float : left;
+    width : 10%;
+    margin-left : 5%;
+    margin-right : 5%;
+}
